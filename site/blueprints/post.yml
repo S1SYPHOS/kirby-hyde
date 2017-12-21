@@ -1,0 +1,37 @@
+title: Post
+
+pages: false
+
+fields:
+  title:
+    label: Title
+    type:  text
+    width: 1/2
+  
+  date:
+    icon: calendar
+    label: Date
+    type: date
+    format: LL
+    placeholder: Select a date…
+    default: today
+    required: true
+    width: 1/2
+
+  text:
+    label: Text
+    type:  textarea
+
+  related:
+    label: Related posts
+    type: structure
+    limit: 3
+    modalsize: large
+    entry: >
+      {{post}}
+    fields:
+      post:
+        label: Post
+        type: select
+        options: siblings
+        text: {{title}}

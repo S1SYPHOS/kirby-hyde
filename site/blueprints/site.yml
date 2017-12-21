@@ -1,0 +1,30 @@
+title: Site
+
+fields:
+  title:
+    label: Title
+    type:  text
+    width: 1/2
+
+  tagline:
+    label: Tagline
+    type:  text
+    width: 1/2
+
+  author:
+    label: Author
+    type:  text
+
+  description:
+    label: Description
+    type:  textarea
+
+  github:
+    label: Github Repo
+    type:  url
+    width: 3/4
+  
+  version:
+    label: Version
+    type: text
+    width: 1/4

@@ -1,0 +1,25 @@
+Title: Hyde
+
+----
+
+Author: 
+
+----
+
+Tagline: A Kirby theme
+
+----
+
+Copyright: 
+
+----
+
+Description: A brazen two-column ~~Jekyll~~ (link: https://getkirby.com text: Kirby popup: yes) theme that pairs a prominent sidebar with uncomplicated content. Made by (link: https://twitter.com/mdo text: @mdo popup: yes).
+
+----
+
+Github: https://github.com/poole/hyde
+
+----
+
+Version: 2.0.0

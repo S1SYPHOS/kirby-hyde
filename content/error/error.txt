@@ -1,0 +1,5 @@
+Title: 404: Page not found
+
+----
+
+Text: Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. (link: / text: Head back home) to try finding it again.
