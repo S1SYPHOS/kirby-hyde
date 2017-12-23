@@ -34,4 +34,3 @@ fields:
         label: Post
         type: select
         options: siblings
-        text: {{title}}

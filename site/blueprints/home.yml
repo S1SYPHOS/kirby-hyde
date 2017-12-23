@@ -12,8 +12,6 @@ fields:
     label: Title
     type:  text
     width: 3/4
-    help: >
-      This is a basic help text.
 
   perpage:
     label: Posts per page

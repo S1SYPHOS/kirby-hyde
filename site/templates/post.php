@@ -1,14 +1,14 @@
 <?php snippet('header') ?>
 
-<div class="post">
-  <h1 class="post-title"><?= $page->title()->html() ?></h1>
-  <span class="post-date"><?= $page->date('d M Y') ?></span>
+<article class="post">
+  <h1 class="post-title"><?= $page->title() ?></h1>
+  <time datetime="<?= $page->date() ?>" class="post-date"><?= $page->date('d M Y') ?></time>
   <?= $page->text()->kt() ?>
-</div>
+</article>
 
 <?php if($page->related()->isNotEmpty()) : ?>
-<div class="related">
-  <h2>Related Posts</h2>
+<aside class="related">
+  <h3>Related Posts</h3>
   <ul class="related-posts">
     <?php foreach($page->related()->toStructure() as $related) : ?>
 
@@ -18,16 +18,14 @@
     ?>
 
     <li>
-      <h3>
-        <a href="<?= $post->url() ?>">
-          <?= $post->title()->html() ?>
-          <small><?= $post->date('d M Y') ?></small>
-        </a>
-      </h3>
+      <a href="<?= $post->url() ?>">
+        <?= $post->title() ?>
+        <small><time datetime="<?= $post->date() ?>"><?= $post->date('d M Y') ?></time></small>
+      </a>
     </li>
     <?php endforeach ?>
   </ul>
-</div>
+</aside>
 <?php endif ?>
 
 <?php snippet('footer') ?>
