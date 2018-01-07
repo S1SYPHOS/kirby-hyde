@@ -15,7 +15,7 @@ Use one of the following methods to start blogging with `kirby-hyde`:
 1. [Clone](https://github.com/S1SYPHOS/kirby-hyde.git) or [download](https://github.com/S1SYPHOS/kirby-hyde/archive/master.zip) this repository.
 2. Unzip / Upload the folder to your site's `root`.
 
-For more information about available features (sticky sidebar content, reverse layout & available themes), check out the [original project](https://github.com/poole/hyde) or view [its demo](http://hyde.getpoole.com/) - `kirby-hyde` basically looks the same.
+For more information, check out the [demo page](https://twobrain.io/hyde) (or head over to the [original project](https://github.com/poole/hyde)).
 
 ## Credits / License
 This is a [port](https://en.wikipedia.org/wiki/Porting) of the Jekyll theme 'Hyde', which was originally developed by [@mdo](https://github.com/mdo). `kirby-hyde` is licensed under the [MIT License](LICENSE), but **using Kirby in production** requires you to [buy a license](https://getkirby.com/buy). Are you ready for the [next step](https://getkirby.com/next)?
