@@ -1,5 +1,7 @@
 title: Page
 
+pages: default
+
 fields:
   title:
     label: Title
